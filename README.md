@@ -16,13 +16,13 @@ El sistema identifica patrones de fraude (precios engañosos, descripciones fals
 - Análisis de datos en Jupyter Notebooks
 
 ## ⚙️ Estrategia y Ética
-- **Fuentes:** eBay (fuente primaria de datos) y UserBenchmark (fuente secundaria para validación técnica).
+- **Fuentes:** eBay (fuente primaria de datos) y Apple (fuente secundaria para validación técnica).
 - **Consideraciones Éticas:** El proyecto se limita a la extracción de datos públicos, sin recopilar información personal (PII) y respetando los términos de servicio. Debido a bloqueos agresivos, se implementó una estrategia de simulación de datos (Mocking) explicada en el informe técnico.
 
 ## 🚀 Cómo ejecutar
 1. Clona este repositorio.
 2. Instala las dependencias: `pip install selenium pandas webdriver-manager`
-3. Ejecuta el notebook `aaaa.ipynb` para realizar la extracción y el análisis.
+3. Ejecuta el notebook `Final- Parte 1.ipynb` para realizar la extracción y el análisis.
 
 ## 🧠 Reflexión sobre el uso de LLMs
 El uso de LLMs permitió acelerar la creación del script base. Sin embargo, la lógica de arquitectura y la resolución de problemas ante bloqueos (Error 403) fueron validados manualmente por el equipo, demostrando que la supervisión humana es indispensable en tareas de scraping real.
